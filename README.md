@@ -3,8 +3,9 @@
 ### W1
 Hello World!
 
-### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+### Devlog 1
+- Added movement to player
+- Changed from third person to first person perspective
 
 ## Open-Source Assets
 ### W1
