@@ -3,7 +3,7 @@
 
 ### W2
 
-## Devlog 1
+## Devlog 2
 
 1. Why are the r, g, and b variables floats instead of ints, bools, or strings?
 - The RGB values need to be float (fractional numbers) not integers (whole numbers) because the rgb values range from 0.0 to 1.0 (integer values cannot represent any value in between 1 and 0)
