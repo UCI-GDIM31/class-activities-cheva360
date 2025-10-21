@@ -1,6 +1,23 @@
 # in-class-activities
 ## Devlogs
 
+## W4
+
+### Devlog
+
+### Tables 11-19: lines 17, 28, and 32 of CatW4 code file
+
+Table 11
+- _isGrounded is a member variable, and the type is bool
+- Line 28 is an if statement which occurs when _isGrounded is true and the space key is pressed.
+- Line 32 sets _isGrounded to false because the jump has commenced, and the player is no longer grounded.
+
+### What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?
+- I added colliders to the player, the soccer ball, and the goal. I added rigidbodies to the soccer ball and the player, and set is trigger on the goal. This is because both the soccer ball and the player need to be affected by physics, while the goal only needs to detect when a collision tagged as the soccer ball occurs.
+
+### IF your game did not work perfectly the first time you tested it, talk about what you had to fix.
+- At first I forgot to set the goal as a trigger, so the goal vfx particles never played when the ball entered the goal.
+
 ## W3
 
 ### Devlog
