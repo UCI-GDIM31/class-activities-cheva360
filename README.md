@@ -1,6 +1,19 @@
 # in-class-activities
 ## Devlogs
 
+## W5
+
+### Write down a question you have about vectors, the Transform Component, gameObject, or GetComponent().
+What are the limitations and the proper syntax of get component? What scenarios can I use it for? 
+- Get component gets a unity component of a game object, for example the collision. Lets say you want the collision of a ball object, you would write ball.GetComponent< collisionclass > something like that. You can get the component and change properties of the component
+
+Deer class plan :
+1. Define the class
+2. Define the serialized field target object
+3. Define the navmesh agent
+4. Set destination to target objects position on start.
+
+
 ## W4
 
 ### Devlog

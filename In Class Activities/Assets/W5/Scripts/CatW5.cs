@@ -30,8 +30,23 @@ public class CatW5 : MonoBehaviour
         //      Which Vector3 static property would be useful here based on
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
-        //          or both?
-        //
+        //          or both
+
+        // translation variable for moving
+        Vector3 move = Vector3.zero;
+
+        Vector3 translation = Vector3.forward * (Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime);
+
+        // flip logic
+        if (_flipWSControls)
+        {
+            translation *= -1;
+        }
+
+        // translate position (depends on flip logic because its after)
+        transform.Translate(translation);
+
+
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
         //      the player's control scheme.
@@ -43,7 +58,8 @@ public class CatW5 : MonoBehaviour
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
+
+        // resets the move variable if not moving for animation purposes
         
 
 
