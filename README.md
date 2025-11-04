@@ -1,6 +1,16 @@
 # in-class-activities
 ## Devlogs
 
+## W6
+### [Category Google doc link: (Made unity engine category)](https://docs.google.com/document/d/1jGkW1Q2xP_713KL3rIzM0yPQ_F7CGMHJ1AHQlTPs5pg/edit?usp=sharing)
+
+### BatW6 Plan
+- If chase is called, set chase bool to true 
+- If stopchase is called, set chase bool to false 
+- If chase bool is true, on void update vector3 move towards target position at speed*deltatime
+- speed = 2f
+
+
 ## W5
 
 ### Write down a question you have about vectors, the Transform Component, gameObject, or GetComponent().
