@@ -1,6 +1,10 @@
 # in-class-activities
 ## Devlogs
 
+## W7
+### [Google doc link w/ drawing: (Came up with game idea, jump types, ui.)](https://docs.google.com/document/d/1tP76vpdvqVFgg7NrHrj0tOCw1tf_d0Ft6UOzOWAW50Q/edit?usp=sharing)
+### Step 2 was wrong because it was using the world axis instead of the local axis, aka vector3.up instead of transform.up.
+
 ## W6
 ### [Category Google doc link: (Made unity engine category)](https://docs.google.com/document/d/1jGkW1Q2xP_713KL3rIzM0yPQ_F7CGMHJ1AHQlTPs5pg/edit?usp=sharing)
 
